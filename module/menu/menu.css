@@ -1,0 +1,84 @@
+.menuB {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+	padding-top: 220px;
+}
+.menuButton {
+	background: linear-gradient(180deg, #777 0%, #999 40%, #eee 100%);
+	border-radius: 200px;
+	justify-self: center;
+	padding: 40px;
+}
+.menuB1 > div {
+	background: #0f0;
+	border-radius: 200px;
+	padding: 2px;
+}
+.menuB2 > div {
+	background: #f00;
+	border-radius: 200px;
+	padding: 2px;
+}
+.menuButton > div > div {
+	background: linear-gradient(180deg, #fff 0%, #888 40%, #444 100%);
+	border-radius: 200px;
+	padding: 10px;
+}
+.menuButton > div > div > div {
+	background: linear-gradient(180deg, #eee 0%, #999 40%, #777 100%);
+	width: 300px;
+	height: 300px;
+	border-radius: 200px;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 75px;
+	font-size: 60px;
+	-webkit-text-stroke: 0.5px #111;
+}
+#menu2 > div > div > div > div {
+	padding-top: 105px;
+}
+.menuB1 > div > div > div {
+	color: #0f0;
+}
+.menuB2 > div > div > div {
+	color: #f00;
+}
+.menuButton > div:active {
+	padding: 5px;
+}
+.menuButton > div:active > div {
+	padding: 7px;
+}
+.menuButton > div:active > div > div {
+	background: linear-gradient(180deg, #c8c8c8 0%, #888888 40%, #686868 100%);
+}
+/*====================================*/
+@media all and (max-width: 960px) {
+	.menuB {
+		padding-top: 20px;
+	}
+	.menuButton {
+		padding: 20px;
+	}
+	.menuButton > div > div {
+		background: linear-gradient(180deg, #fff 0%, #888 40%, #444 100%);
+		border-radius: 200px;
+		padding: 5px;
+	}
+	.menuButton > div > div > div {
+		width: 200px;
+		height: 200px;
+		padding-top: 45px;
+		font-size: 40px;
+	}
+	#menu2 > div > div > div > div {
+		padding-top: 70px;
+	}
+	.menuButton > div:active {
+		padding: 5px;
+	}
+	.menuButton > div:active > div {
+		padding: 2px;
+	}
+}

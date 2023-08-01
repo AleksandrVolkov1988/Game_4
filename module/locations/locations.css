@@ -1,0 +1,149 @@
+.locations {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 7fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	margin: 10px;
+}
+.locations > div {
+	background: #eee;
+	margin: 1px 1px;
+	width: 140px;
+	height: 140px;
+	padding: 50px;
+	border: 1px solid #000;
+	color: #000;
+	text-align: center;
+	line-height: 20px;
+}
+
+.green {
+	background: #afd !important;
+}
+.yellow {
+	background: #ffb !important;
+	opacity: 0.5;
+}
+.red {
+	background: #fbb !important;
+	opacity: 0.5;
+}
+.shadowWars {
+	background: #333 !important;
+	opacity: 0.2;
+}
+.column1 {
+	grid-column: 1/2;
+}
+.column2 {
+	grid-column: 2/3;
+}
+.column3 {
+	grid-column: 3/4;
+}
+.column4 {
+	grid-column: 4/5;
+}
+.column5 {
+	grid-column: 5/6;
+}
+.column6 {
+	grid-column: 6/7;
+}
+.column7 {
+	grid-column: 7/8;
+}
+.column8 {
+	grid-column: 8/9;
+}
+.row1 {
+	grid-row: 1/2;
+}
+.row2 {
+	grid-row: 2/3;
+}
+.row3 {
+	grid-row: 3/4;
+}
+.row4 {
+	grid-row: 4/5;
+}
+.row5 {
+	grid-row: 5/6;
+}
+.row15 {
+	grid-row: 1/6;
+}
+#infoLoc {
+	background: #eee;
+	margin: 1px 10px;
+	padding: 10px;
+	border: 1px solid #000;
+}
+#infoLoc span:nth-of-type(1) {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+}
+.buyLoc {
+	text-align: center;
+	margin-top: 50px;
+}
+.buyLoc button {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 20px;
+	padding: 10px 25px 15px 25px;
+	color: #aff;
+	border: 1px solid #555;
+	border-radius: 50px;
+	background: linear-gradient(180deg, #ccc 0%, #888 40%, #666 100%);
+}
+.selectWar {
+	background: #fff;
+	border: 2px solid #000;
+	position: absolute;
+	width: 99%;
+	height: 91%;
+	top: 80px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+	padding: 20px;
+    grid-template-columns: 1fr;
+    z-index: 2;
+}
+.buyLoc button:nth-of-type(2) {
+	margin-left: 40px;
+}
+.buyLoc button:nth-of-type(3) {
+	color: #faa;
+	margin-left: 40px;
+}
+/*====================================*/
+@media all and (max-width: 960px) {
+	.locations {
+		margin: 1px;
+	    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 7fr;
+	}
+	.locations > div {
+		background: #eee;
+		margin: 1px 1px;
+		width: 55px;
+		height: 55px;
+		padding: 15px;
+	}
+	.locations img {
+		height: 15px;
+		width: 15px;
+	}
+	#infoLoc {
+		background: #eee;
+		margin: 1px 4px;
+		padding: 5px;
+	}
+	.selectWar {
+		height: 86%;
+		top: 50px;
+	}
+}

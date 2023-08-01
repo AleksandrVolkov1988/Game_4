@@ -1,0 +1,147 @@
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: linear-gradient(180deg, #eee 0%, #999 40%, #777 100%);
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.4fr 0.6fr;
+}
+footer > div {
+	border-radius: 100px;
+	margin: 10px 20px;
+	background: linear-gradient(180deg, #777 0%, #999 40%, #eee 100%);
+	padding: 9px;
+}
+footer > div > div {
+	border-radius: 100px;
+	background: #fff;
+	padding: 1px;
+}
+footer > div > div > div {
+	border-radius: 100px;
+	cursor: pointer;
+	background: linear-gradient(180deg, #fff 0%, #888 40%, #444 100%);
+	padding: 5px;
+}
+footer > div > div > div > div {
+	border-radius: 100px;
+	height: 30px;
+	cursor: pointer;
+	background: linear-gradient(180deg, #eee 0%, #999 40%, #777 100%);
+	text-align: center;
+	color: #fff;
+}
+footer > div > div:active {
+	padding: 5px;
+}
+footer > div > div:active > div {
+	padding: 1px;
+}
+footer > div > div:active > div > div {
+	background: linear-gradient(180deg, #ccc 0%, #888 40%, #666 100%);
+}
+/*====================================*/
+footer > div:nth-of-type(1) > div {
+	background: #ffc;
+}
+footer > div:nth-of-type(1) div {
+	color: #330;
+}
+footer > div:nth-of-type(1) > div:active div {
+	color: #ffc;
+}
+.footer1 {
+	color: #ffc !important;
+}
+/*====================================*/
+footer > div:nth-of-type(2) > div {
+	background: #fcf;
+}
+footer > div:nth-of-type(2) div {
+	color: #303;
+}
+footer > div:nth-of-type(2) > div:active div {
+	color: #fcf;
+}
+.footer2 {
+	color: #fcf !important;
+}
+/*====================================*/
+footer > div:nth-of-type(3) > div {
+	background: #fb9;
+}
+footer > div:nth-of-type(3) div {
+	color: #330;
+}
+footer > div:nth-of-type(3) > div:active div {
+	color: #fb9;
+}
+.footer3 {
+	color: #fb9 !important;
+}
+/*====================================*/
+footer > div:nth-of-type(4) > div {
+	background: #cff;
+}
+footer > div:nth-of-type(4) div {
+	color: #330;
+}
+footer > div:nth-of-type(4) > div:active div {
+	color: #cff;
+}
+.footer4 {
+	color: #cff !important;
+}
+/*====================================*/
+footer > div:nth-of-type(5) > div {
+	background: #cfc;
+}
+footer > div:nth-of-type(5) div {
+	color: #330;
+}
+footer > div:nth-of-type(5) > div:active div {
+	color: #cfc;
+}
+.footer5 {
+	color: #cfc !important;
+}
+/*====================================*/
+footer > div:nth-of-type(6) > div {
+	background: #faa;
+}
+footer > div:nth-of-type(6) div {
+	color: #330;
+}
+footer > div:nth-of-type(6) > div:active div {
+	color: #faa;
+}
+.footer6 {
+	color: #faa !important;
+}
+/*====================================*/
+#technologies span {
+	color: #fcf;
+	margin-left: 8px;
+}
+/*====================================*/
+@media all and (max-width: 960px) {
+	footer > div {
+		margin: 5px 5px;
+		padding: 4px;
+	}
+	footer > div > div {
+		padding: 1px;
+	}
+	footer > div > div > div {
+		padding: 5px;
+	}
+	footer > div > div > div > div {
+		height: 18px;
+	}
+	footer > div > div:active {
+		padding: 5px;
+	}
+	footer > div > div:active > div {
+		padding: 1px;
+	}
+}
